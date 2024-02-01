@@ -3,6 +3,7 @@ Tänker skriva en bash fil för att installera QEMU samt skapa QEMU VM
 
 
 
+
 https://www.qemu.org/download/#linux
 
 apt-get install qemu-system
@@ -11,9 +12,7 @@ apt-get install qemu-system
 qemu-img create -f qcow2 mydisk.qcow2 20G
 
 
-
 qemu-system-[arch] -hda mydisk.qcow2 -cdrom path/to/os.iso -boot d
-
 
  
 qemu-img create -f qcow2 windows11.qcow2 30G
