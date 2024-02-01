@@ -16,4 +16,7 @@ qemu-img create -f qcow2 windows11.qcow2 30G
 # Starta VM med Windows 11 ISO
 qemu-system-x86_64 -hda windows11.qcow2 -cdrom /home/diypa571/Downloads/[FTUApps.com]\ -\ Windows\ 11\ Pro\ Build\ 22000.120\ 21H2\ \(x64\)\ En-US\ Pre-Activated/Windows_11_ACTIVATED.iso -boot d -m 4G -enable-kvm
 
+qemu-system-x86_64 -hda windows11.qcow2 -m 4G -enable-kvm
+
+
 
