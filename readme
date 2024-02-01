@@ -2,8 +2,6 @@ BÄTTRE ÄN Hyber V, VirtualBox, VMWARE ÄR ...QEMU... PROVE ME WRONG
 Tänker skriva en bash fil för att installera QEMU samt skapa QEMU VM
 
 
-
-
 https://www.qemu.org/download/#linux
 
 apt-get install qemu-system
